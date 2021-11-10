@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    .contactWrapper {
+        background-color: #7fcec5;
+        background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+        padding: 10px 20px;
+        width: fit-content;
+        margin-left: auto;
+        border-radius: 20px 0 0 0px;
+        display: flex;
+        justify-content: center;
+        a {
+            margin: 10px;
+        }
+        .icons {
+            height: 28px; 
+            width: 28px; 
+            font-size: 26px; 
+            color: #ffffff;
+            &:hover {
+                font-size: 28px; 
+            }
+        }
+    }
+}

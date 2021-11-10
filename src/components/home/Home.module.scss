@@ -1,0 +1,35 @@
+.home {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: fit-content;
+    .wrapper {
+        img {
+            height: 200px;
+            width: 200px;
+            border-right: 10px solid #14557b;
+            // border-bottom: 10px solid #14557b;
+            // border-top: 10px solid #7fcec5;
+            border-left: 10px solid #7fcec5;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .name {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+        .designation {
+            font-size: 20px;
+            margin-bottom: 30px;
+            a {
+                text-decoration: none;
+                color: unset;
+                font-weight: bold;
+            }
+        }
+        .description {
+           
+        }
+    }
+}
