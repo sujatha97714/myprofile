@@ -12,7 +12,7 @@ export default function Home() {
                 <a href="https://www.cisco.com/c/en_in/index.html" target="_blank" rel="noreferrer">Cisco</a>
             </div>
             <div className={styles.description}>
-                &#128187; A programming enthusiat lost and exploring in the maze of web technologies. <br/> &#128151; I love developing complex aesthetic user interfaces. <br/> &#128161; Technical mentor guiding freshers aspring to enter the software world 
+                &#128187; A programming enthusiast lost and exploring in the maze of web technologies. <br/> &#128151; I love developing complex aesthetic user interfaces. <br/> &#128161; Technical mentor guiding freshers aspring to enter the software world 
             </div>
         </div>
     </div>
