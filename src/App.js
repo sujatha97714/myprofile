@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter, HashRouter, Routes, Route} from 'react-router-dom'
+import { HashRouter, Routes, Route} from 'react-router-dom'
 
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 
+import 'antd/dist/antd.css';
 import './App.css';
 
 function App() {
