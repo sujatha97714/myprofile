@@ -31,4 +31,13 @@
             }
         }
     }
+    @media (max-width: 500px){
+        padding: 20px;
+        .title {
+            align-self: center;
+        }
+        .card {
+            margin: 10px;
+        }
+    }
 }
