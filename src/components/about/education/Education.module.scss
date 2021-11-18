@@ -1,0 +1,44 @@
+.education {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    .title {
+        font-size: 36px;
+        color: #7fcee5;
+        font-weight: bold;
+        align-self: center;
+    }
+    .cardCntr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        
+        .timeLine {
+            margin-top: 20px;
+            color: #fff;
+            width: 100%;
+            .ant-timeline-item-content {
+                width: 50%;
+            }
+            .timelineLabel {
+                color: #fff;
+            }
+            .tlItem {
+                display: flex;
+                flex-direction: column;
+                .itemTitle {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    @media (max-width: 500px){
+        padding: 0px;
+        .title {
+            align-self: center;
+        }
+    }
+}

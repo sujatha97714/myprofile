@@ -6,7 +6,30 @@
     flex-direction: column;
     overflow: auto;
     .note {
-        font-size: 36px;
+        font-size: 24px;
         text-align: center;
+        span {
+            background: linear-gradient(to right, #14557b, #30CFD0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
+    .section {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .title {
+            font-size: 36px;
+            color: #7fcee5;
+            font-weight: bold;
+            align-self: center;
+        }
+        .sectionBody {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
 }
