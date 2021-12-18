@@ -1,11 +1,12 @@
 .home {
     flex-grow: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: 600px;
     overflow: auto;
     .wrapper {
+        min-height: 600px;
+        align-items: center;
         img {
             height: 200px;
             width: 200px;

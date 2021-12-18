@@ -12,25 +12,32 @@
     }
     .cardCntr {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
-        width: 100%;
-        
-        .timeLine {
-            margin-top: 20px;
-            color: #fff;
-            width: 100%;
-            .ant-timeline-item-content {
-                width: 50%;
-            }
-            .timelineLabel {
-                color: #fff;
-            }
-            .tlItem {
+        align-self: center;
+        >*{
+            margin: 20px;
+            .cardItem {
                 display: flex;
                 flex-direction: column;
+                // align-items: flex-start;
+                color: #fff;
+                background-color: black;
+                border: 0px;
+                box-shadow: 0px 0px 5px 2px #222;
+                padding-top: 20px;
                 .itemTitle {
                     font-weight: bold;
+                }
+                .subtitle {
+                    color: #7fcee5;
+                }
+                .works {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-top: 20px;
+                    text-align: start;
                 }
             }
         }
